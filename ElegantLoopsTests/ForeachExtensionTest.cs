@@ -9,7 +9,7 @@ namespace ElegantLoopsTests
 		[InlineData(int.MinValue)]
 		public void WhenZeroOrNegative_NoOneLoopWillBeExecuted(int count)
 		{
-			foreach (var i in count)
+			foreach (var _ in count)
 			{
 				Assert.Fail();
 			}

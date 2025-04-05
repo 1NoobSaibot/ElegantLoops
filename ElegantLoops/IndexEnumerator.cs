@@ -4,7 +4,7 @@
 	{
 		private int _current;
 		private readonly int _end;
-		public int Current => _current;
+		public readonly int Current => _current;
 
 
 		public IndexEnumerator(int count)
