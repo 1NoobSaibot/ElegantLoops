@@ -3,6 +3,29 @@
 	<PropertyGroup>
 		<TargetFramework>net5.0</TargetFramework>
 		<LangVersion>9.0</LangVersion>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageProjectUrl></PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/1NoobSaibot/ElegantLoops</RepositoryUrl>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<Title>Elegant Loops</Title>
+		<Authors>Yevhen Diulin</Authors>
+		<Company>Elegant Loops Ink</Company>
+		<PackageTags>loop; foreach; index; iteration; elegant; minimal; sugar; modern; clean; syntax; enumerator; count; CSharp; C#; extension; refstruct; elegantloop; forloop; loop-alternative; loop-sugar; tiny-package; readable; intuitive; developer-experience; sharp syntax; cleaner; code-quality; micro-nuget; style-sugar; productivity; fun</PackageTags>
+		<IncludeSymbols>True</IncludeSymbols>
+		<PackageOutputPath>$(OutputPath)</PackageOutputPath>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 
 </Project>
