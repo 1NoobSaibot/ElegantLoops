@@ -1,7 +1,7 @@
 using ElegantLoops;
 namespace ElegantLoopsTests
 {
-	public class ForeachExtensionTest
+	public class IndexEnumeratorTest
 	{
 		[Theory]
 		[InlineData(0)]

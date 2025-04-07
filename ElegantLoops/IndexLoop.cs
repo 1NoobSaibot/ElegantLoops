@@ -6,5 +6,11 @@
 		{
 			return new IndexEnumerator(count);
 		}
+
+
+		public static LongIndexEnumerator GetEnumerator(this long count)
+		{
+			return new LongIndexEnumerator(count);
+		}
 	}
 }
