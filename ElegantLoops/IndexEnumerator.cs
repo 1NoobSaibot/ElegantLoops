@@ -16,7 +16,7 @@
 
 		public bool MoveNext()
 		{
-			_current++;
+			++_current;
 			return _current < _end;
 		}
 	}

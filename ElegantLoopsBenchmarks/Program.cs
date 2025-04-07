@@ -9,6 +9,7 @@ namespace ElegantLoopsBenchmarks
 		static void Main()
 		{
 			BenchmarkRunner.Run<BenchmarkClass>();
+			Console.ReadKey();
 		}
 	}
 
@@ -21,7 +22,8 @@ namespace ElegantLoopsBenchmarks
 		[Benchmark]
 		public void TestClassicForLoop()
 		{
-			for (int i = 0; i < Count; i++)
+			int countInStack = Count;
+			for (int i = 0; i < countInStack; ++i)
 			{ }
 		}
 
