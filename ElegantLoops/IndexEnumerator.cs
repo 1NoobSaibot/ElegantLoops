@@ -1,6 +1,6 @@
 ﻿namespace ElegantLoops
 {
-	public ref struct IndexEnumerator
+	public struct IndexEnumerator
 	{
 		private int _current;
 		private readonly int _end;

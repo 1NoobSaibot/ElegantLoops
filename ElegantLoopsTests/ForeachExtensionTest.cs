@@ -46,5 +46,15 @@ namespace ElegantLoopsTests
 
 			Assert.Equal(0, firstIndex);
 		}
+
+
+		[Fact]
+		public async Task WorksInAsyncContextAsWell()
+		{
+			foreach (int _ in 10)
+			{
+				await Task.Delay(1);
+			}
+		}
 	}
 }
