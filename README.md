@@ -48,3 +48,8 @@ And guess what? It’s free! …for now 😈
 ## License
 This project is licensed under the MIT License —
 use it freely, copy it shamelessly, but hey — drop a ⭐ if it made you smile.
+
+## Inspiration
+This project was inspired by a [Nick Chapsas](https://www.youtube.com/@nickchapsas).
+And the video: [Adding a BETTER way to loop in C#](https://www.youtube.com/watch?v=jmmz1cInNow).
+I loved the idea and decided to implement my own version with some personal tweaks.
