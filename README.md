@@ -53,3 +53,7 @@ use it freely, copy it shamelessly, but hey — drop a ⭐ if it made you smile.
 This project was inspired by a [Nick Chapsas](https://www.youtube.com/@nickchapsas).
 And the video: [Adding a BETTER way to loop in C#](https://www.youtube.com/watch?v=jmmz1cInNow).
 I loved the idea and decided to implement my own version with some personal tweaks.
+
+## Feedback and Contributions
+Feel free to open an [Issue](https://github.com/1NoobSaibot/ElegantLoops/issues) for bugs, questions, or suggestions.
+Pull Requests are also welcome!
