@@ -10,6 +10,7 @@
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<Title>Elegant Loops</Title>
+		<Version>1.0.1</Version>
 		<Authors>Yevhen Diulin</Authors>
 		<Company>Elegant Loops Ink</Company>
 		<PackageTags>loop; foreach; index; iteration; elegant; minimal; sugar; modern; clean; syntax; enumerator; count; CSharp; C#; extension; refstruct; elegantloop; forloop; loop-alternative; loop-sugar; tiny-package; readable; intuitive; developer-experience; sharp syntax; cleaner; code-quality; micro-nuget; style-sugar; productivity; fun</PackageTags>
